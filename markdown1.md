@@ -20,8 +20,96 @@ Pour créer un titre, on ajoute un signe numérique # devant un mot ou une phras
  
   ##### En Markdown
 
-1. # Heading level 1
-2. ## Heading level 2
-3. ### Heading level 3
+1. \# Heading level 1
+2. \## Heading level 2
+3. \### Heading level 3
 
+##### Output
+
+1. # Heading level 1
+2. # Heading level 2
+3. # Heading level 3
   
+Il existe une syntaxe alternative :
+
+on ajoute == caractères en dessous de heading level 1 ou --
+
+#### Exemples
+
+Heading level 1
+
+\================
+
+## Paragraphes
+
+Pour créer des paragraphes, on utilise une ligne vierge pour séparer une ou plusieurs lignes de texte. 
+
+## Line Breaks 
+
+Pour créer une ligne break \<br>, finir la ligne avec 2 espaces ou plus et ensuite return.
+
+## Emphasis
+
+On peut mettre l'accent en mettant le texte en gras (bold) ou en italique (italic)
+
+### Bold
+On ajoute ** ou __ avant et après un mot ou une phrase
+
+#### Exemple
+Vive `**Be Code**`
+
+### Italic
+On ajoute * ou _ avant et après un mot ou une phrase
+
+#### Exemple 
+Vive `*Be Code*`
+
+### Bold and italic
+On ajoute *** ou ___avant et après un mot ou une phrase
+
+## Blockquotes
+On ajoute > avant un paragraphe
+
+#### Exemple
+`> Hello World!`
+donne :
+> Hello World!
+donne:
+
+##### Si on a plusieurs paragraphes:
+
+`> Je suis apprenant Be Code`
+
+`> `
+
+`> Je suis à Charleroi `
+
+donne :
+
+> Je suis apprenant Be Code
+>
+> Je suis à Charleroi 
+
+
+##### Imbrications:
+
+`> Je suis apprenant Be Code`
+
+`> `
+
+`>> Je suis à Charleroi `
+
+donne:
+
+> Je suis apprenant Be Code
+> 
+>> Je suis à Charleroi 
+
+##### Blockquotes et autres éléments: 
+Blockquotes peuvent contenir d'autres éléments Markdown. Pas tous les éléments, il faut tester.
+
+
+
+
+
+
