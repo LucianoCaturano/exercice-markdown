@@ -1,9 +1,4 @@
 # Memo Markdown
-<<<<<<< HEAD
-
-## Menu
-
-
 
 ## Menu
 [A lire](README.md)     
