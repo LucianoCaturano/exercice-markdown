@@ -10,16 +10,19 @@ Pour créer une liste ordonées il faut toujours commencer par la liste par le n
 
 #### Markdown
 
-\1. First item
-\2. Second item
-\3. Third item
-\4. Fourth item
+    1. First item
+    2. Second item
+    3. Third item
+    4. Fourth item
 
 #### Rendu à l'écran
 
 1. First item
+
 2. Second item
+
 3. Third item
+
 4. Fourth item
 
 
@@ -36,13 +39,12 @@ Les listes non ordonées peuvent utiliser les puces suivantes:
 Pour créer des sous listes il faut ajouter un tab (ou 4 espace et reprendre une nouvelle liste).
 
 #### Markdown
-
-/- First item
-/- Second item
-/- Third item
-    - Indented item
-    - Indented item
-/- Fourth item
+    - First item
+    - Second item
+    - Third item
+        - Indented item
+        - Indented item
+    - Fourth item
 
 #### Rendu à l'écran
 
