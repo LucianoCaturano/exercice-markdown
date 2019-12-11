@@ -4,7 +4,7 @@
 
 ## Intro
 
-Markdown est un système d’édition et de formatage de texte ; c’est à la fois une syntaxe, un script de conversion texte → HTML et un format de fichier. Il est couramment utilisé pour les fichiers de documentation d’un projet ou d’un jeu de données -souvent nommé readme.md. Il est stocké au format texte classique et est plus léger que sa version interprétée puisqu’il ne contient pas les balises html.
+**Markdown** est un système d’édition et de formatage de texte ; c’est à la fois une syntaxe, un script de conversion texte → HTML et un format de fichier. Il est couramment utilisé pour les fichiers de documentation d’un projet ou d’un jeu de données -souvent nommé readme.md. Il est stocké au format texte classique et est plus léger que sa version interprétée puisqu’il ne contient pas les balises html.
 
 La philosophie du système veut que le texte écrit soit lisible sans interpréteur particulier en mode texte. Il est léger et épuré de l’essentiel de la verbosité d’un language balisé. Les éléments de syntaxe sont des caractères de ponctuation qui font sens visuellement même non convertis. Une fois converti, le navigateur web (qui joue alors le rôle d’interpréteur) en rendra la lecture plus claire.
 
@@ -16,7 +16,7 @@ Comme le résultat sera exporté en HMTL, vous pouvez tout à fait introduire di
 
 Pour créer un titre, on ajoute un signe numérique # devant un mot ou une phrase. Le nombre de signes numériques utilisés doit correspondre au niveau de l'en-tête.
 
-#### Exemples
+- #### Exemples
  
   ##### En Markdown
 
@@ -30,11 +30,11 @@ Pour créer un titre, on ajoute un signe numérique # devant un mot ou une phras
 2. # Heading level 2
 3. # Heading level 3
   
-Il existe une syntaxe alternative :
+Il existe *une syntaxe alternative* :
 
 on ajoute == caractères en dessous de heading level 1 ou --
 
-#### Exemples
+- #### Exemples
 
 Heading level 1
 
@@ -61,7 +61,7 @@ Vive `**Be Code**`
 ### Italic
 On ajoute * ou _ avant et après un mot ou une phrase
 
-#### Exemple 
+- #### Exemple 
 Vive `*Be Code*`
 
 ### Bold and italic
@@ -70,7 +70,7 @@ On ajoute *** ou ___avant et après un mot ou une phrase
 ## Blockquotes
 On ajoute > avant un paragraphe
 
-#### Exemple
+- #### Exemple
 `> Hello World!`
 donne :
 > Hello World!
@@ -107,9 +107,4 @@ donne:
 
 ##### Blockquotes et autres éléments: 
 Blockquotes peuvent contenir d'autres éléments Markdown. Pas tous les éléments, il faut tester.
-
-
-
-
-
 
